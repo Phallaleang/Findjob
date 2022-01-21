@@ -1,0 +1,250 @@
+#bg-img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-position-x: center;
+    background-position-y: center;
+    background-attachment: fixed;
+    background-image: url("../img/pexels-daria.jpg");
+    width: 100%;
+    height: auto;
+}
+
+nav ul .main-menu #sub-menu {
+    display: none;
+}
+
+.active {
+    color: rgb(236, 19, 48);
+    padding-bottom: 4px;
+    border-bottom: 2px solid rgb(230, 41, 41);
+}
+
+.actives {
+    color: rgb(240, 32, 59);
+}
+
+.activeProfile {
+    color: white;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+
+/* The Modal Logo */
+
+.modal_logo {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+    padding-top: 10px;
+    cursor: pointer;
+}
+
+
+/* Modal for Form login */
+
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+    padding-top: 40px;
+}
+
+.animate {
+    -webkit-animation: animatezoom 0.2s;
+    animation: animatezoom 0.2s;
+}
+
+@-webkit-keyframes animatezoom {
+    from {
+        -webkit-transform: scale(0);
+    }
+    to {
+        -webkit-transform: scale(1);
+    }
+}
+
+@keyframes animatezoom {
+    from {
+        transform: scale(0);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
+
+/* Change styles for span and cancel button on extra small screens */
+
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+    .cancelbtn {
+        width: 100%;
+    }
+}
+
+
+/* Modal for form Register */
+
+.modal_resgiter {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+    padding-top: 40px;
+    cursor: pointer;
+}
+
+
+/* Modal for form forget Password */
+
+.modal_forget {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+    padding-top: 40px;
+    cursor: pointer;
+}
+
+
+/* Modal form Email in Job list */
+
+.modal_email {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+    padding-top: 40px;
+    cursor: pointer;
+}
+
+.rotate {
+    transition: all 0.2s;
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+    -webkit-transition: all 0.2s;
+}
+
+.sticky {
+    position: fixed;
+    width: 100%;
+    top: 0px;
+}
+
+#bg-img-list {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-position-x: center;
+    background-position-y: center;
+    background-image: url("../img/gt-home-banner2.jpg");
+    width: 100%;
+    height: auto;
+}
+
+
+/* Hover Overlay */
+
+.overlay {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: rgb(247, 247, 243);
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    z-index: 2;
+    opacity: 0.95;
+    transition: 0.5s ease;
+}
+
+.box-job:hover .overlay {
+    height: 100%;
+    bottom: 0;
+}
+
+.activeList {
+    border: 1px solide red;
+}
+
+.activeColor {
+    color: white;
+    background-color: rgb(61, 58, 58);
+    cursor: pointer;
+}
+
+::-webkit-scrollbar-button {
+    display: none;
+}
